@@ -5,8 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/your-repo-name/', // <-- IMPORTANT: replace with your GitHub repo name
+  base: '/iTask/', // <-- Must be your EXACT repo name
   build: {
-    outDir: 'dist', // or 'build' if you change package.json to match
+    outDir: 'dist',
   }
 })
+
